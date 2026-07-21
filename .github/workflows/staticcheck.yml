@@ -20,16 +20,16 @@ jobs:
         go: ["1.20.x"]
     runs-on: ${{ matrix.os }}
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e # v1
       with:
         fetch-depth: 1
-    - uses: WillAbides/setup-go-faster@v1.7.0
+    - uses: WillAbides/setup-go-faster@8af5eb44e6d2676b48dfd4730ee3902f41d59584 # v1.7.0
       with:
         go-version: ${{ matrix.go }}
     - run: make all				
     - run: "go test ./..."
     - run: "go vet ./..."
-    - uses: dominikh/staticcheck-action@v1.2.0
+    - uses: dominikh/staticcheck-action@a3513ade2e5cb8075ba1c1ed1890a989cf0f2aa0 # v1.2.0
       with:
         version: "2023.1.5"
         install-go: false

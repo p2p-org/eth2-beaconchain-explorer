@@ -11,9 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 # master
       - name: Publish to Dockerhub Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@8217e91c0369a5342a4ef2d612de87492410a666 # master
         with:
           name: gobitfly/eth2-beaconchain-explorer
           username: ${{ secrets.DOCKER_USERNAME }}
