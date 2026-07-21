@@ -9,7 +9,7 @@ require (
 	github.com/Gurpartap/storekit-go v0.0.0-20201205024111-36b6cd5c6a21
 	github.com/alexedwards/scs/redisstore v0.0.0-20230217120314-6b1bedc0f08c
 	github.com/alexedwards/scs/v2 v2.5.0
-	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/awa/go-iap v1.3.7
 	github.com/aybabtme/uniplot v0.0.0-20151203143629-039c559e5e7e
 	github.com/carlmjohnson/requests v0.23.4
