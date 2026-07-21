@@ -20,7 +20,7 @@ require (
 	github.com/gobitfly/eth-rewards v0.1.2-0.20230403064929-411ddc40a5f7
 	github.com/gobitfly/eth.store v0.0.0-20230306141701-814b59fb0cea
 	github.com/golang-jwt/jwt v3.2.2+incompatible
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.4
 	github.com/gomodule/redigo v1.8.0
 	github.com/gorilla/context v1.1.1
 	github.com/gorilla/csrf v1.7.0
