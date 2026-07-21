@@ -46,7 +46,7 @@ require (
 	github.com/pressly/goose/v3 v3.10.0
 	github.com/prometheus/client_golang v1.14.0
 	github.com/protolambda/zrnt v0.30.0
-	github.com/prysmaticlabs/go-bitfield v0.0.0-20210809151128-385d8c5e3fb7
+	github.com/prysmaticlabs/go-bitfield v0.0.0-20260504143531-5cbb6d0f5f2e
 	github.com/prysmaticlabs/go-ssz v0.0.0-20210121151755-f6208871c388
 	github.com/prysmaticlabs/prysm/v3 v3.2.0
 	github.com/rocket-pool/rocketpool-go v1.10.1-0.20230228020137-d5a680907dff
